@@ -12,6 +12,8 @@ from models import Base, GuestHouses, Activities
 from database import engine, SessionLocal
 from schemas import GuestHouse, Activity
 from passlib.context import CryptContext
+from sqlalchemy import create_engine, text
+from sqlalchemy.orm import sessionmaker
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -96,6 +98,8 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
 async def protected_route(current_user: str = Depends(get_current_user)):
     return {"message": "Access granted", "user": current_user}
 
+
+
 # GuestHouse endpoints
 @app.get("/GuestHouses/{GuestHouse_id}", response_model=GuestHouse)
 async def get_guesthouse(GuestHouse_id: str, db: Session = Depends(get_db)):
@@ -154,6 +158,7 @@ async def create_activity(activity: Activity, db: Session = Depends(get_db), cur
     db.refresh(new_activity)
     return new_activity
 
+
 @app.put("/Activities/{Activity_id}", response_model=Activity)
 async def update_activity(Activity_id: str, activity: Activity, db: Session = Depends(get_db), current_user: str = Depends(get_current_user)):
     existing_activity = db.query(Activities).filter(Activities.Activity_id == Activity_id).first()
@@ -200,6 +205,17 @@ async def delete_guesthouse(GuestHouse_id: str, db: Session = Depends(get_db), c
     
     return {"message": f"Guesthouse with ID {GuestHouse_id} has been deleted successfully"}
 
+
+@app.get("/GuestHouses/Activities/{Activity_id}")
+def get_guesthouse_by_activity(Activity_id: int, db: Session = Depends(get_db)):
+    query = text("SELECT * FROM guesthouses WHERE activity_id = :activity_id")
+    result = db.execute(query, {"activity_id": Activity_id}).fetchall()
+    if not result:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Guesthouses with Activity ID {Activity_id} not found"
+        )
+    return [dict(row) for row in result]  # Convert SQLAlchemy RowProxy to a dictionary for JSON response
 
 
 @app.get("/")
