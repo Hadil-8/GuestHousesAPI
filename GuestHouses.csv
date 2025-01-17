@@ -1,0 +1,31 @@
+GuestHouse_id,Name,Region,City,Address,Description,Phone,EcoCertification,PricePerNight
+GH001,Dar El Kef,Kef,Kef,"Rue de la LibertÃ©, 123",Traditional house with stunning views,+216 78 123 456,False,80
+GH002,Dar Zitouna,Sousse,Sousse,"Avenue Habib Bourguiba, 45",Boutique guesthouse in the medina,+216 73 234 567,True,100
+GH003,Dar Sebsbi,Tozeur,Tozeur,"Rue de l'Oasis, 78",Desert oasis retreat,+216 76 345 678,True,70
+GH004,Dar El Fenn,Tunis,Tunis,"Place de la Kasbah, 90",Artistic guesthouse in the heart of Tunis,+216 71 456 789,True,120
+GH005,Dar Djerba,Djerba,Midoun,"Rue de la Mer, 15",Beachfront guesthouse,+216 91 567 890,True,90
+GH006,Dar Sidi Bou Said,Tunis,Sidi Bou Said,"Rue des Artistes, 25",Blue and white guesthouse with panoramic views,+216 71 678 901,False,150
+GH007,Dar El Jem,El Jem,El Jem,"Rue du ColisÃ©e, 10",Near the Roman amphitheater,+216 74 789 012,True,80
+GH008,Dar Tataouine,Tataouine,Tataouine,"Rue des Ksour, 5",Traditional Berber guesthouse,+216 75 890 123,True,70
+GH009,Dar Kairouan,Kairouan,Kairouan,"Avenue de la RÃ©publique, 30",Near the Great Mosque,+216 72 901 234,False,80
+GH010,Dar Hammamet,Hammamet,Hammamet,"Rue de la Plage, 20",Beachfront resort with eco-friendly practices,+216 72 123 456,True,100
+GH011,Dar Bizerte,Bizerte,Bizerte,"Rue de la Marine, 18",Waterfront guesthouse,+216 70 234 567,True,80
+GH012,Dar Sfax,Sfax,Sfax,"Avenue de la LibertÃ©, 5",Modern guesthouse with traditional touches,+216 74 345 678,False,80
+GH013,Dar Monastir,Monastir,Monastir,"Rue de la Ribat, 10",Near the Ribat of Monastir,+216 73 456 789,True,90
+GH014,Dar Gabes,Gabes,Gabes,"Rue de la Mer, 30",Oasis guesthouse with traditional architecture,+216 91 567 890,True,70
+GH015,Dar Nabeul,Nabeul,Nabeul,"Rue du Souk, 25",Guesthouse in the heart of the medina,+216 72 678 901,False,90
+GH016,Dar Ben Arous,Ben Arous,Ben Arous,"Rue de la Ferme, 15",Rural guesthouse with farm-to-table dining,+216 71 789 012,True,80
+GH017,Dar Zaghouan,Zaghouan,Zaghouan,"Rue des Sources, 10",Guesthouse near the Roman aqueduct,+216 79 890 123,True,70
+GH018,Dar Siliana,Siliana,Siliana,"Rue du Parc, 20",Guesthouse surrounded by nature,+216 78 901 234,False,60
+GH019,Dar Kasserine,Kasserine,Kasserine,"Rue de la Montagne, 15",Guesthouse in the mountains,+216 79 123 456,True,60
+GH020,Dar Gafsa,Gafsa,Gafsa,"Rue de l'Oasis, 30",Oasis guesthouse with traditional architecture,+216 94 234 567,False,60
+GH021,Dar Kebili,Kebili,Kebili,"Rue du Sahara, 5",Desert oasis retreat with traditional architecture,+216 75 123 456,True,70
+GH022,Dar Tozeur,Tozeur,Tozeur,"Avenue de l'Oasis, 10",Luxury desert retreat with private pool,+216 76 234 567,True,80
+GH023,Dar Tataouine,Tataouine,Tataouine,"Rue des Ksour, 15",Traditional Berber guesthouse with stunning views,+216 75 345 678,False,70
+GH024,Dar Douz,KÃ©bili,Douz,"Rue du Sahara, 20",Desert camp with traditional tents,+216 75 456 789,True,80
+GH025,Dar Nefta,Tozeur,Nefta,"Avenue de l'Oasis, 5",Oasis guesthouse with stunning views,+216 76 567 890,True,70
+GH026,Dar Chott El Jerid,Tozeur,Tozeur,"Rue du Chott, 10",Unique guesthouse on the edge of the salt lake,+216 76 678 901,False,70
+GH027,Dar El May,Djerba,El May,"Rue du Village, 5",Rural guesthouse with farm-to-table dining,+216 79 789 012,True,70
+GH028,Dar Chebika,Tozeur,Chebika,"Rue de l'Oasis, 10",Oasis guesthouse with stunning mountain views,+216 79 890 123,True,80
+GH029,Dar Midoun,Djerba,Midoun,"Rue de la Mer, 20",Beachfront guesthouse with traditional architecture,+216 91 123 456,False,90
+GH030,Dar Houmt Souk,Djerba,Houmt Souk,"Rue du Souk, 15",Guesthouse in the heart of the medina,+216 91 234 567,True,90

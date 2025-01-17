@@ -1,0 +1,41 @@
+Activity_id,Name,Description,Type,Region,City,Price,GuestHouse_id
+ACT001,Desert Safari,Overnight desert adventure with camel riding and stargazing,Adventure,Tozeur,Tozeur,150,GH003
+ACT002,Cooking Class,Learn to prepare traditional Tunisian dishes,Cultural,Sousse,Sousse,50,GH002
+ACT003,Pottery Workshop,Create your own pottery with a local artisan,Cultural,Nabeul,Nabeul,40,GH015
+ACT004,Guided City Tour,Explore the medina of Tunis with a local guide,Cultural,Tunis,Tunis,30,GH004
+ACT005,Olive Oil Tasting,Visit an olive oil farm and learn about the production process,Food & Drink,Sfax,Sfax,25,GH012
+ACT006,Wine Tasting,Tour a local winery and sample Tunisian wines,Food & Drink,Nabeul,Hammamet,60,GH010
+ACT007,Sunset Camel Ride,Enjoy a peaceful camel ride along the beach,Adventure,Djerba,Midoun,45,GH005
+ACT008,Hiking in the Mountains,Explore the stunning landscapes of the Atlas Mountains,Adventure,Zaghouan,Zaghouan,70,GH017
+ACT009,Visit to a Roman Amphitheater,Explore the ancient Roman amphitheater in El Jem,Historical,El Jem,El Jem,20,GH007
+ACT010,Souk Exploration,Discover the vibrant souks of Marrakech,Cultural,Tunis,Tunis,15,GH004
+ACT011,Berber Carpet Weaving Workshop,Learn the art of Berber carpet weaving,Cultural,Tataouine,Tataouine,35,GH008
+ACT012,Stargazing Tour,Experience the magic of the Tunisian night sky,Nature,Tozeur,Tozeur,80,GH022
+ACT013,Quad Biking in the Desert,Explore the desert on a thrilling quad bike adventure,Adventure,Douz,Douz,90,GH024
+ACT014,Traditional Tunisian Massage,Relax with a traditional massage at the guesthouse,Wellness,Hammamet,Hammamet,40,GH010
+ACT015,Birdwatching Tour,Observe the diverse birdlife in the marshes of Monastir,Nature,Monastir,Monastir,30,GH013
+ACT016,Visit to a Berber Village,Experience traditional Berber life and culture,Cultural,Tataouine,Tataouine,50,GH023
+ACT017,Horse Riding on the Beach,Enjoy a scenic horseback ride along the beach,Adventure,Djerba,Midoun,60,GH005
+ACT018,Learn to Play the Oud,Learn to play the traditional Tunisian lute,Music & Dance,Tunis,Tunis,45,GH004
+ACT019,Guided Tour of the Bardo Museum,Explore the rich history of Tunisia at the Bardo National Museum,Historical,Tunis,Tunis,25,GH004
+ACT020,Visit to a Date Palm Oasis,Learn about date palm cultivation and enjoy a date tasting,Nature,Tozeur,Tozeur,20,GH003
+ACT021,Stand-Up Paddleboarding,Explore the coastline on a stand-up paddleboard,Water Sports,Hammamet,Hammamet,35,GH010
+ACT022,Snorkeling or Diving,Discover the underwater world of the Mediterranean,Water Sports,Djerba,Midoun,70,GH005
+ACT023,Learn to Make Tunisian Bread,Join a local baker and learn how to make traditional Tunisian bread,Food & Drink,Sousse,Sousse,30,GH002
+ACT024,Visit to the Kairouan Great Mosque,Explore the impressive architecture of the Great Mosque of Kairouan,Historical,Kairouan,Kairouan,15,GH009
+ACT025,Guided Tour of the Carthage Ruins,Explore the ancient Roman ruins of Carthage,Historical,Tunis,Tunis,20,GH004
+ACT026,Learn to Play the Drums,Learn to play the traditional Tunisian drums,Music & Dance,Sousse,Sousse,40,GH002
+ACT027,Henna Painting Workshop,Learn the art of henna painting from a local artist,Cultural,Sousse,Sousse,25,GH002
+ACT028,Visit to a Local Market,Immerse yourself in the vibrant atmosphere of a local market,Cultural,Tunis,Tunis,10,GH004
+ACT029,Sunset Cruise,Enjoy a relaxing sunset cruise along the coast,Water Sports,Hammamet,Hammamet,50,GH010
+ACT030,Learn to Make Tunisian Tea,Learn the art of making traditional Tunisian mint tea,Food & Drink,Sousse,Sousse,15,GH002
+ACT031,Visit to a Berber Cave Dwelling,Explore a traditional Berber cave dwelling in the Matmata region,Cultural,Matmata,Matmata,45,GH031
+ACT032,Learn to Play Backgammon,Learn to play the ancient game of backgammon with a local,Games,Tunis,Tunis,20,GH004
+ACT033,Visit to a Roman Villa,Explore the ruins of a Roman villa,Historical,Dougga,Dougga,30,GH032
+ACT034,Learn to Make Tunisian Couscous,Learn to cook the national dish of Tunisia,Food & Drink,Sousse,Sousse,35,GH002
+ACT035,Visit to a Local Museum,Explore the local history and culture at a local museum,Cultural,Sousse,Sousse,15,GH002
+ACT036,Guided Tour of the Medina of Sousse,Explore the medina of Sousse with a local guide,Cultural,Sousse,Sousse,20,GH002
+ACT037,Learn to Make Tunisian Jewelry,Learn to make traditional Tunisian jewelry,Crafts,Nabeul,Nabeul,40,GH015
+ACT038,Visit to a Local Olive Oil Press,See how olive oil is traditionally pressed,Food & Drink,Sfax,Sfax,25,GH012
+ACT039,Guided Tour of the Ribat of Monastir,Explore the medieval fortress of the Ribat of Monastir,Historical,Monastir,Monastir,15,GH013
+ACT040,Learn to Play the Flute,Learn to play the traditional Tunisian flute,Music & Dance,Tunis,Tunis,45,GH004
