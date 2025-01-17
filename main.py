@@ -39,11 +39,6 @@ Base.metadata.create_all(bind=engine)
 origins = [
     "http://localhost:3000",  # Your frontend URL
 ]
-
-# Initialize FastAPI app
-app = FastAPI()        
-
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -86,7 +81,6 @@ def get_db():
         yield db
     finally:
         db.close()
-
 
 # Authentication endpoint to get a token
 @app.post("/token/")
@@ -212,19 +206,16 @@ async def delete_guesthouse(GuestHouse_id: str, db: Session = Depends(get_db), c
     return {"message": f"Guesthouse with ID {GuestHouse_id} has been deleted successfully"}
 
 
-@app.get("/GuestHouses/Activities/{Activity_id}", response_model=List[GuestHouse])
-def get_guesthouse_by_activity(Activity_id: str, db: Session = Depends(get_db)):
-    # Query for all guest houses that have a related activity with the given Activity_id
-    guesthouses = db.query(GuestHouses).join(Activities).filter(Activities.Activity_id == Activity_id).all()
-
-    if not guesthouses:
+@app.get("/GuestHouses/Activities/{Activity_id}")
+def get_guesthouse_by_activity(Activity_id: int, db: Session = Depends(get_db)):
+    query = text("SELECT * FROM guesthouses WHERE activity_id = :activity_id")
+    result = db.execute(query, {"activity_id": Activity_id}).fetchall()
+    if not result:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Guesthouses with Activity ID {Activity_id} not found"
         )
-
-    return guesthouses
-
+    return [dict(row) for row in result]  # Convert SQLAlchemy RowProxy to a dictionary for JSON response
 
 
 @app.get("/")
